@@ -1,0 +1,24 @@
+ai_resume_analyzer/
+│
+├── main.py
+├── pipeline.py
+│
+├── nodes/
+│   ├── parsing.py
+│   ├── resume_structuring.py
+│   ├── jd_structuring.py
+│   ├── validation.py
+│   ├── normalization.py
+│   ├── matching.py
+│   ├── scoring.py
+│   ├── gap_analysis.py
+│   ├── recommendation.py
+│   ├── explainability.py
+│   └── output.py
+│
+├── utils/
+│   ├── llm.py
+│   ├── embeddings.py
+│   └── schemas.py
+│
+└── requirements.txt
